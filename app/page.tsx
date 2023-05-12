@@ -38,7 +38,7 @@ export default function Home() {
               Summary
             </h1>
             <p className='text-center'>
-              Hello, name is Alex! 
+              Hello, my name is Alex! 
               <br/>I am from Greece and I love creating,
               <br/>I do so by developing websites!
               <br/>I have mostly worked with 
@@ -63,7 +63,7 @@ export default function Home() {
                   <td>2022-24</td>  
                   <td>-</td>
                   <td>I am currently studying at the
-                    <br/>&quot;Vocational School of Peristeri&quot; 
+                    <br/>&quot;Vocational School of Peristeri, Greece&quot; 
                     <br/>in the specialty of 
                     <br/>&quot;Technician of Applications in Informatics&quot;.
                   </td>
@@ -119,7 +119,7 @@ export default function Home() {
 
 const ExperienceField = () => (
         <div className='text-xl py-2'>
-          <p className='text-center '> Experience - Skills</p>
+          <h2 className='text-center '> Experience - Skills</h2>
           <p className='text-sm text-center'>(relative)</p>
 
           <ExperienceItem skill='NextJS' rating='85%'/>
