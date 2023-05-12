@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+  font-size: 1.5rem/* 24px */;
+  line-height: 2rem/* 32px */;
+}
+
+h2 {
+  font-size: 1.25rem/* 20px */;
+  line-height: 1.75rem/* 28px */;
+}
+
+
+body {
+  margin: 0;
+  color: #0e172c;
+  background: #d3c7fe;
+  height: 1123px;
+  width: 794px;
+  font-size: 1.125rem/* 18px */;
+  line-height: 1.75rem/* 28px */;
+}
+
+.linkSection{
+    a{
+      color: #2d2e91;
+    }
+    img{
+      display: inline;
+      margin-right: 4px;
+      transform: translateY(-2px);
+    }
+
+}
+
+#tel{
+  transform: rotate(90deg)  translateY(0px) translateX(-2px); 
+}
+#globe{
+  transform: translateY(-2px) translateX(4px); 
+}
+
+#languages,#studies{
+  td{
+    border-block: #2d2e91 solid 1px;
+    padding-block: 20px;
+    padding-inline: 5px;
+    text-align: center;
+  }
+}
