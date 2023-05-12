@@ -8,7 +8,8 @@ export default function Home() {
     <>
 
     <div 
-      className='flex p-4 gap-4 h-full'>
+      className='flex p-4 gap-4 h-full w-full
+      max-w-[794px]'>
 
       <aside className='border bg-white bg-opacity-10 rounded-md w-[35%] px-4 py-10 flex flex-col justify-between'>
         <div>
