@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { ItemKeys } from "./interfaces";
 
 const Links = () => (
 
@@ -59,9 +60,6 @@ const Links = () => (
 
 )
 
-interface ItemKeys {
-  [key:string]:string,
-}
 
 const Item = ({href,src,alt,id,description}:ItemKeys) => (
   
