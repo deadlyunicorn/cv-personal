@@ -1,24 +1,66 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 
-<title/>
-
-<g id="Complete">
-
-<g id="mail">
-
-<g>
-
-<polyline fill="none" points="4 8.2 12 14.1 20 8.2" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-
-<rect fill="none" height="14" rx="2" ry="2" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="18" x="3" y="6.5"/>
-
-</g>
-
-</g>
-
-</g>
-
+<svg
+   width="699.99988"
+   height="699.99988"
+   viewBox="0 0 20.999996 20.999996"
+   version="1.1"
+   id="svg17538"
+   sodipodi:docname="mail.svg"
+   inkscape:export-filename="mail.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs17542" />
+  <sodipodi:namedview
+     id="namedview17540"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <title
+     id="title17528" />
+  <g
+     id="Complete"
+     transform="matrix(0.74999943,0,0,0.93750019,-1.5985578,-5.2794496)">
+    <g
+       id="mail">
+      <g
+         id="g17534">
+        <polyline
+           fill="none"
+           points="4 8.2 12 14.1 20 8.2"
+           stroke="#000000"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-width="2"
+           id="polyline17530"
+           style="stroke-width:1.43136;stroke-dasharray:none"
+           transform="matrix(1.4405447,0,0,1.4521272,-1.1551173,-2.7723098)" />
+        <rect
+           fill="none"
+           height="20.329781"
+           rx="2.8810892"
+           ry="2.9042544"
+           stroke="#000000"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-width="2"
+           width="25.929806"
+           x="3.166517"
+           y="6.6665168"
+           id="rect17532"
+           style="stroke-width:2.07021;stroke-dasharray:none" />
+      </g>
+    </g>
+  </g>
 </svg>
