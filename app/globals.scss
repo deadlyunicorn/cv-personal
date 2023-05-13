@@ -23,24 +23,23 @@ body {
   line-height: 1.75rem/* 28px */;
 }
 
+a{
+  color: #2d2e91;
+}
+
 .linkSection{
-    a{
-      color: #2d2e91;
-    }
     img{
       display: inline;
       margin-right: 4px;
       transform: translateY(-2px);
     }
-
 }
 
 #tel{
   transform: rotate(90deg)  translateY(0px) translateX(-2px); 
 }
-#globe{
-  transform: translateY(-2px) translateX(4px); 
-}
+
+
 
 #languages,#studies{
   td{
@@ -49,6 +48,11 @@ body {
     padding-inline: 5px;
     text-align: center;
   }
+}
+
+td{
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
 }
 
 
