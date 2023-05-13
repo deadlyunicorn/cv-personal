@@ -12,10 +12,14 @@ export default function Home() {
     <>
 
     <div 
-      className='flex p-4 gap-4 h-full w-full
-      max-w-[794px]'>
+      className='
+      flex flex-col 
+      min-[400px]:flex-row 
+      p-4 gap-4 w-full
+      items-center
+      min-[400px]:max-w-[794px]'>
 
-      <aside className='border bg-white bg-opacity-10 rounded-md w-[35%] px-4 py-10 flex flex-col justify-between'>
+      <aside className='border bg-white bg-opacity-10 rounded-md min-[400px]:w-[35%] w-[70%] px-4 py-10 flex flex-col justify-between h-full'>
         <div>
           <h1>Alexander Petrache</h1>
           <h2>Web Developer</h2>
@@ -35,7 +39,7 @@ export default function Home() {
 
       </aside>
 
-      <main className='border bg-white bg-opacity-10 rounded-md w-[65%] px-4 py-10 flex flex-col justify-between'>
+      <main className='border bg-white bg-opacity-10 rounded-md min-[400px]:w-[65%] w-[70%] px-4 py-10 flex flex-col justify-between h-full'>
           
           <div className='flex flex-col items-center text-center'>
             
