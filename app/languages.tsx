@@ -1,42 +1,35 @@
-import { ReactNode } from "react";
+import { ItemKeys } from "./interfaces";
 
-const StudiesTable=()=>(
+const LanguagesTable=()=>(
 
-  <table id='studies'>
+  <table id='languages'>
      <tbody>
 
-      <StudiesItem
-        description={
-          <p>
-            I am currently studying at the
-            <br/>&quot;Vocational School of Peristeri, Greece&quot; 
-            <br/>in the specialty of 
-            <br/>&quot;Technician of Applications in Informatics&quot;.
-          </p>
-        }
-        years="2022-24"/>
+     <LanguageItem
+        language="Greek"
+        level="Native"/>
 
-      <StudiesItem 
-        description={
-          <p>
-            Graduated from High School.
-          </p>
-        }
-        years="2021"/>
+      <LanguageItem
+        language="English"
+        level="Fluent"/>
+
+      <LanguageItem
+        language="Romanian"
+        level="Conversational"/>
     </tbody>
   </table>
 
 
 )
 
-export default StudiesTable;
+export default LanguagesTable;
 
-const StudiesItem = ({years,description}:{years:string,description:ReactNode}) => (
+const LanguageItem = ({language,level}:ItemKeys) => (
 
   <tr>
-    <td>{years}</td>  
+    <td>{language}</td>  
     <td>-</td>
-    <td>{description}</td>
+    <td>{level}</td>
   </tr>
 
 )

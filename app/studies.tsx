@@ -1,22 +1,30 @@
+import { ReactNode } from "react";
 import { ItemKeys } from "./interfaces";
 
 const LanguagesTable=()=>(
 
-  <table id='languages'>
+  <table id='studies'>
 
      <tbody>
 
-      <LanguageItem
-        language="Greek"
-        level="Native"/>
+     <StudiesItem
+        description={
+          <p>
+            I am currently studying at the
+            <br/>&quot;Vocational School of Peristeri, Greece&quot; 
+            <br/>in the specialty of 
+            <br/>&quot;Technician of Applications in Informatics&quot;.
+          </p>
+        }
+        years="2022-24"/>
 
-      <LanguageItem
-        language="English"
-        level="Fluent"/>
-
-      <LanguageItem
-        language="Romanian"
-        level="Conversational"/>
+      <StudiesItem 
+        description={
+          <p>
+            Graduated from High School.
+          </p>
+        }
+        years="2021"/>
 
     </tbody>
 
@@ -27,12 +35,12 @@ const LanguagesTable=()=>(
 
 export default LanguagesTable;
 
-const LanguageItem = ({language,level}:ItemKeys) => (
+const StudiesItem = ({years,description}:{years:string,description:ReactNode}) => (
 
   <tr>
-    <td>{language}</td>  
+    <td>{years}</td>  
     <td>-</td>
-    <td>{level}</td>
+    <td>{description}</td>
   </tr>
 
 )

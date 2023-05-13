@@ -2,10 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Links from "@/app/links"
 import {ExperienceField} from '@/app/experience'
-import { ItemKeys } from './interfaces'
-import { ReactNode } from 'react'
 import StudiesTable from './studies'
-import LanguagesTable from './studies'
+import LanguagesTable from './languages'
 
 export default function Home() {
   return (
