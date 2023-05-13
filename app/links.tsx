@@ -3,87 +3,84 @@ import Image from "next/image"
 
 const Links = () => (
 
-  <table className="text-base linkSection flex flex-col gap-2 py-2">
-    <tr>
+  <table className="text-base linkSection">
+    
+    <tbody>
 
-  
-      <Link target="_blank"
-            rel="noopener noreferrer"
-              href="https://github.com/deadlyunicorn/">
-        <td>
-          <Image src="/github_filled.svg" width={20} height={20} alt='github icon'/>
-        </td>
-        <td>Github: /deadlyunicorn</td>
-      </Link>
-    </tr>
-      
-    <tr>
-      <Link target="_blank"
-            rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/alexander-petrache/">
-        <td><Image src="/linkedin.png" width={20} height={20} alt='linkedin icon'/></td>
-        <td>Linkedin: /alexander-petrache</td>
-      </Link>
-    </tr>
-      
-
-    <tr>
-      <Link target="_blank"
-            rel="noopener noreferrer"
-              href="https://www.deadlyunicorn.dev/">
-        <td>
-          <Image id="globe" src="/web.svg" width={20} height={20} alt='globe icon'/>
-        </td>
-        <td>
-          Personal Website
-
-        </td>
-      </Link>
-    </tr>
-
-    <tr>
-      <Link href="mailto:retroalex1008@gmail.com">
-
-        <td>
-          <Image src="/mail.svg"  width={20} height={20} alt='mail icon'/>
-        </td>
-        <td>
-          retroalex1008@gmail.com
-        </td>
-      </Link>
-    </tr>
-
-    <tr>
-      <Link href="tel:+306980234544">
-        <td>
-          <Image src="/tel.svg" id='tel' width={20} height={20} alt='telephone icon'/>
-        </td>
-        <td>
-          +306980234544
-        </td>
-      
-      </Link>
-    </tr>
+      <Item
+        href="https://github.com/deadlyunicorn/"
+        id="github"
+        src="github_filled.svg"
+        alt="github icon"
+        description="Github: /deadlyunicorn"
+      />
 
 
-    <tr>
-      <Link target="_blank"
-            rel="noopener noreferrer"
-              href="https://goo.gl/maps/Bj8fJCYPCLUjDr1H6">
-        <td>
-          <Image src="/house.svg" width={20} height={20} alt='house icon'/>
-        </td>
-        <td>
-          Athens 104 44, Greece 
-
-        </td>
-      </Link>
-    </tr>
+        
+      <Item
+        href="https://www.linkedin.com/in/alexander-petrache/"
+        id="linkedin"
+        src="linkedin.svg"
+        alt="linkedin icon"
+        description="Linkedin: /alexander-petrache"
+      />
 
 
+      <Item 
+        href="https://www.deadlyunicorn.dev/"
+        id="globe"
+        src="web.svg"
+        alt="globe icon"
+        description="Personal Website"/>
+
+      <Item
+        href="mailto:retroalex1008@gmail.com"
+        id="mail"
+        src="mail.svg"
+        alt="mail icon"
+        description="retroalex1008@gmail.com"/>
+
+      <Item
+        href="tel:+306980234544"
+        id="tel"
+        src="tel.svg"
+        alt="telephone icon"
+        description="+30 698 023 4544"/>
+
+      <Item 
+        href="https://goo.gl/maps/Bj8fJCYPCLUjDr1H6"
+        id="address"
+        src="house.svg"
+        alt="house icon"
+        description="Athens 104 44, Greece"/>
+
+    </tbody>
   </table>
 
 )
 
+interface ItemKeys {
+  [key:string]:string,
+}
+
+const Item = ({href,src,alt,id,description}:ItemKeys) => (
+  
+  <tr>
+    <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href={href}>
+      
+      <td>
+        <Image id={id} src={src} width={20} height={20} alt={alt}/>
+      </td>
+
+      <td>
+        {description}
+      </td>
+  </Link>
+</tr>
+
+)
 
 export default Links;
