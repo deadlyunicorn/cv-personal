@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Links from "./links"
-import ExperienceItem from './experience'
+import Links from "@/app/links"
+import {ExperienceField} from '@/app/experience'
 
 export default function Home() {
   return (
@@ -117,22 +117,3 @@ export default function Home() {
 
   )
 }
-
-const ExperienceField = () => (
-        <div className='text-xl py-2'>
-          <h2 className='text-center '> Experience - Skills</h2>
-          <p className='text-sm text-center'>(relative)</p>
-
-          <ExperienceItem skill='NextJS' rating='85%'/>
-          <ExperienceItem skill='MongoDB' rating='65%'/>
-          <ExperienceItem skill='Git' rating='70%'/>
-          <ExperienceItem skill='C++' rating='65%'/>
-          <ExperienceItem skill='SQL' rating='40%'/>
-          <ExperienceItem skill='Linux' rating='90%'/>
-          <ExperienceItem skill='MSOffice' rating='60%'/>
-          <ExperienceItem skill='Notion' rating='70%'/>
-
-
-        </div>
-
-)
