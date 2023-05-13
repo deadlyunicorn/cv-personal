@@ -63,21 +63,32 @@ const Links = () => (
 
 const Item = ({href,src,alt,id,description}:ItemKeys) => (
   
-  <tr>
-    <Link
-        target="_blank"
-        rel="noopener noreferrer"
-        href={href}>
-      
-      <td>
-        <Image id={id} src={src} width={20} height={20} alt={alt}/>
-      </td>
+
+    <tr>
+   
 
       <td>
-        {description}
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={href}>
+        
+          <Image id={id} src={src} width={20} height={20} alt={alt}/>
+        
+        </Link>
       </td>
-  </Link>
-</tr>
+
+      
+      <td>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={href}>
+          {description}
+        </Link>
+      </td>
+
+  </tr>
 
 )
 
