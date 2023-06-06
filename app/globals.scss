@@ -53,13 +53,14 @@ a{
 
 
 
-#languages,#studies{
+#languages,#studies,#hobbies{
   td{
     border-block: #2d2e91 solid 1px;
-    padding-block: 20px;
+    padding-block: 10px;
     padding-inline: 5px;
     text-align: center;
   }
+  margin-top: 5px;
 }
 
 td{

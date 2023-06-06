@@ -4,6 +4,7 @@ import Links from "@/app/links"
 import {ExperienceField} from '@/app/experience'
 import StudiesTable from './studies'
 import LanguagesTable from './languages'
+import Hobbies from './hobbies'
 
 export default function Home() {
   return (
@@ -82,6 +83,15 @@ export default function Home() {
             
             <div className='flex justify-center mt-2'>
               <LanguagesTable/>
+            </div>
+
+          </div>
+
+          <div>
+            <h1 className='text-center underline'>Hobbies - Interests - Additional</h1>
+            
+            <div className='flex justify-center mt-2'>
+              <Hobbies/>
             </div>
 
           </div>
