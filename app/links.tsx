@@ -92,4 +92,38 @@ const Item = ({href,src,alt,id,description}:ItemKeys) => (
 
 )
 
+export const LinksCL = () =>( //Links for cover letter
+
+  <table className="text-base linkSection">
+    
+    <tbody>
+
+      <Item
+        href="mailto:retroalex1008@gmail.com"
+        id="mail"
+        src="mail.svg"
+        alt="mail icon"
+        description="retroalex1008@gmail.com"/>
+
+      <Item
+        href="tel:+306980234544"
+        id="tel"
+        src="tel.svg"
+        alt="telephone icon"
+        description="+30 698 023 4544"/>
+
+      <Item 
+        href="https://goo.gl/maps/Bj8fJCYPCLUjDr1H6"
+        id="address"
+        src="house.svg"
+        alt="house icon"
+        description="Athens 104 44, Greece"/>
+
+        
+
+    </tbody>
+  </table>
+
+)
+
 export default Links;
