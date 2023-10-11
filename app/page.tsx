@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import Links from "@/app/links"
 import {ExperienceField} from '@/app/experience'
 import StudiesTable from './studies'
@@ -19,9 +18,19 @@ export default function Home() {
       min-[580px]:max-w-[794px]'>
 
       <aside className='border bg-white bg-opacity-10 rounded-md min-[580px]:w-[35%] w-[70%] px-4 py-10 flex flex-col justify-between h-full'>
-        <div>
-          <h1>Alexander Petrache</h1>
-          <h2>Web Developer</h2>
+        <div className='flex flex-col'>
+          <h1 className='font-semibold text-2xl'>Alexander Petrache</h1>
+          
+          <div className='flex gap-x-2'>
+            <h2 className='text-lg'>Web Developer</h2>
+            <Image 
+              className='self-center'
+              alt='my internet avatar'
+              height={20}
+              width={20}
+              src={'/deadlyunicorn.png'}/>
+          </div>
+
         </div>
 
 
@@ -47,20 +56,28 @@ export default function Home() {
             </h1>
             
             <p>
-              Hello, my name is Alex! 
-              <br/>I am from Greece and I love creating,
+              Hello, I am Alex! 
+              <br/>I live in Greece. I love creating,
               <br/>I do so by developing websites!
               <br/>I have mostly worked with 
-              <br/>NextJS with TypeScript, TailwindCSS and MongoDB.
+              <br/><strong>NextJS</strong> ( <em>a React Framework</em> ) and <strong>MongoDB.</strong>
               <br/>
-              <br/>I keep up with new technologies,
-              <br/>and enjoy solving challenges.
+              <br/>I also have experience working with
+              <br/><strong>NodeJS, TypeScript and TailwindCSS.</strong>
+              <br/>
+              <br/>I keep up with the new technologies.
+              <br/>I currently <em>want to gain experience</em> on
+              <br/>Mobile Dev ( <strong>Flutter</strong> )
+              <br/>mi<b>X</b>ed <b>R</b>eality Dev ( Unity? )
+              <br/><strong>Prompt Engineering</strong> ( Llama2 )
+              <br/>
+              <br/>I enjoy solving challenges.
               <br/>I have consistently stood out due to my performance.
-              <br/>I possess strong organizational skills
-              <br/> and a healthy skepticism.
+              <br/>Disorganization deters me.
               <br/>I am a fast learner and adaptable.
-              <br/>I haven&apos;t worked on any team projects yet,
-              <br/>but I would love to!
+              <br/>
+              <br/>I can communicate with ease in <b>English</b> and <b>Greek</b>.
+              <br/>I can also have basic conversations in <b>Romanian</b>.
             </p>
 
           </div>
@@ -77,7 +94,7 @@ export default function Home() {
           </div>
 
 
-
+{/* 
           <div>
             <h1 className='text-center underline'>Languages</h1>
             
@@ -85,7 +102,7 @@ export default function Home() {
               <LanguagesTable/>
             </div>
 
-          </div>
+          </div> */}
 
           <div>
             <h1 className='text-center underline'>Hobbies - Interests - Additional</h1>

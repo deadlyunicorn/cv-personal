@@ -5,7 +5,7 @@ const ysabeau = Ysabeau({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Alexander Petrache',
-  description: 'CV of Alexander Petrache for job role: Web Developer',
+  description: 'CV of Alexander Petrache for the job role: Web Developer',
 }
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="Yuni_transparent.png" type="image/x-icon" />
       </head>
       
-      <body className={ysabeau.className}>
+      <body className={`bg-white text-slate-900 ${ysabeau.className}`}>
           {children}
       </body>
     </html>

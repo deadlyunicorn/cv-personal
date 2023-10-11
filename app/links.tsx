@@ -19,11 +19,11 @@ const Links = () => (
 
         
       <Item
-        href="https://www.linkedin.com/in/alexander-petrache/"
+        href="https://www.linkedin.com/in/deadlyunicorn"
         id="linkedin"
         src="linkedin.svg"
         alt="linkedin icon"
-        description="Linkedin: /alexander-petrache"
+        description="Linkedin: /in/deadlyunicorn"
       />
 
 
@@ -32,7 +32,7 @@ const Links = () => (
         id="globe"
         src="web.svg"
         alt="globe icon"
-        description="Personal Website"/>
+        description="www.deadlyunicorn.dev"/>
 
       <Item
         href="mailto:retroalex1008@gmail.com"
@@ -81,6 +81,7 @@ const Item = ({href,src,alt,id,description}:ItemKeys) => (
       
       <td>
         <Link
+          className="text-blue-800"
           target="_blank"
           rel="noopener noreferrer"
           href={href}>
