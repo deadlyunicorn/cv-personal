@@ -12,12 +12,15 @@ export default function Home() {
     <div 
       className='
       flex flex-col 
-      min-[580px]:flex-row 
+      md:flex-row 
       p-4 gap-4 w-full
       items-center
-      min-[580px]:max-w-[794px]'>
+      md:max-w-[794px]'>
 
-      <aside className='border bg-white bg-opacity-10 rounded-md min-[580px]:w-[35%] w-[70%] px-4 py-10 flex flex-col justify-between h-full'>
+      <aside className='border bg-white bg-opacity-10 rounded-md 
+      md:w-[35%] w-[70%] px-4 py-10 
+      gap-y-6
+      flex flex-col justify-between h-full'>
         <div className='flex flex-col'>
           <h1 className='font-semibold text-2xl'>Alexander Petrache</h1>
           
@@ -47,7 +50,9 @@ export default function Home() {
 
       </aside>
 
-      <main className='border bg-white bg-opacity-10 rounded-md min-[580px]:w-[65%] w-[70%] px-4 py-10 flex flex-col justify-between h-full'>
+      <main className='border bg-white bg-opacity-10 rounded-md md:w-[65%] w-[70%] px-4 py-10 
+      gap-y-4
+      flex flex-col justify-between h-full'>
           
           <div className='flex flex-col items-center text-center'>
             
@@ -107,7 +112,7 @@ export default function Home() {
           <div>
             <h1 className='text-center underline'>Hobbies - Interests - Additional</h1>
             
-            <div className='flex justify-center mt-2'>
+            <div className='flex justify-center'>
               <Hobbies/>
             </div>
 

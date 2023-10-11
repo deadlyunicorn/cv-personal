@@ -19,7 +19,10 @@ export default function RootLayout({
         <link rel="shortcut icon" href="Yuni_transparent.png" type="image/x-icon" />
       </head>
       
-      <body className={`bg-white text-slate-900 ${ysabeau.className}`}>
+      <body className={`
+      bg-white text-slate-900  
+      md:max-h-fit
+      ${ysabeau.className}`}>
           {children}
       </body>
     </html>
