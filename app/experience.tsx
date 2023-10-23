@@ -3,13 +3,13 @@ export const ExperienceField = () => (
     <h2 className='text-center '> Experience - Skills</h2>
     <p className='text-sm text-center'>(relative)</p>
 
-    <ExperienceItem skill='NextJS (React Framework)' rating='90%'/>
+    <ExperienceItem skill='NextJS - ReactJS' rating='90%'/>
     <ExperienceItem skill='MongoDB' rating='80%'/>
     <ExperienceItem skill='NodeJS' rating='80%'/>
     <ExperienceItem skill='Git' rating='80%'/>
     <ExperienceItem skill='Linux' rating='90%'/>
     <ExperienceItem skill='SQL' rating='40%'/>
-    <ExperienceItem skill='C++' rating='60%'/>
+    <ExperienceItem skill='TypeScript' rating='80%'/>
     <ExperienceItem skill='Notion' rating='70%'/>
   </div>
 

@@ -64,25 +64,28 @@ export default function Home() {
               </h1>
               
               <p>
-                Hello, I am Alex! 
-                <br/>I live in Greece. I love creating,
-                <br/>I do so by developing websites!
+                Greetings! I am Alex and I live in Greece! 
+                <br/>I love creating and I do so 
+                <br/><em>by developing webapps!</em>
                 <br/>I have mostly worked with 
-                <br/><strong>NextJS</strong> ( <em>a React Framework</em> ) and <strong>MongoDB.</strong>
+                <br/><strong>NextJS</strong> <br/>( <em>a React Framework</em> )<br/> and <strong>MongoDB.</strong>
                 <br/>
                 <br/>I also have experience working with
                 <br/><strong>NodeJS, TypeScript and TailwindCSS.</strong>
                 <br/>
                 <br/>I keep up with the new technologies.
-                <br/>I currently <em>want to gain experience</em> on
-                <br/>Mobile Dev ( <strong>Flutter</strong> )
-                <br/>mi<b>X</b>ed <b>R</b>eality Dev ( Unity? )
-                <br/><strong>Prompt Engineering</strong> ( Llama2 )
+                <br/>I currently <em>want to experiment</em> with
+                <br/><strong>Flutter</strong> and <strong> Rust </strong>
                 <br/>
-                <br/>I enjoy solving challenges.
+                <br/>Some other fields I find intriguing are:
+                <br/>Mixed/Virtual Reality
+                <br/>Prompt Engineering 
+                <br/>Cyber Security
+                <br/>
+                <br/>I enjoy <b>dealing up with new challenges</b>.
                 <br/>I have consistently stood out due to my performance.
                 <br/>Disorganization deters me.
-                <br/>I am a fast learner and adaptable.
+                <br/>I am a <b>fast learner</b> and <b>adaptable</b>.
                 <br/>
                 <br/>I can communicate with ease in <b>English</b> and <b>Greek</b>.
                 <br/>I can also have basic conversations in <b>Romanian</b>.
@@ -113,7 +116,7 @@ export default function Home() {
             </div> */}
 
             <div>
-              <h1 className='text-center underline'>Hobbies - Interests - Additional</h1>
+              <h1 className='text-center underline'>Hobbies - Additional</h1>
               
               <div className='flex justify-center'>
                 <Hobbies/>

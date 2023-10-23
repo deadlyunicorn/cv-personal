@@ -73,7 +73,10 @@ const Item = ({href,src,alt,id,description}:ItemKeys) => (
           rel="noopener noreferrer"
           href={href}>
         
-          <Image id={id} src={src} width={20} height={20} alt={alt}/>
+          <div className="sm:flex hidden shrink-0 w-5 h-5">
+            <Image 
+              id={id} src={src} width={20} height={20} alt={alt}/>
+          </div>
         
         </Link>
       </td>
@@ -81,7 +84,7 @@ const Item = ({href,src,alt,id,description}:ItemKeys) => (
       
       <td>
         <Link
-          className="text-blue-800"
+          className="text-blue-800 flex text-xs sm:text-base"
           target="_blank"
           rel="noopener noreferrer"
           href={href}>
