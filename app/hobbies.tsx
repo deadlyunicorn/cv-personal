@@ -1,7 +1,7 @@
 export default function Hobbies(){
 
   return (
-    <div id="hobbies" className="flex w-full justify-around md:flex-row flex-col items-center">
+    <div id="hobbies" className="flex w-full justify-around flex-row items-center">
       <ul className="list-disc list-inside">
         <li>Jogging</li>
         <li>Photography</li>

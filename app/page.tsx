@@ -8,20 +8,20 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col w-full'>
 
-      <PDFPrompt/>
+      {/* <PDFPrompt/> */}
 
       <div 
         className='
-        flex flex-col 
-        md:flex-row 
+        flex
+        flex-row justify-center
         p-4 gap-4 w-full
         items-center
-        md:max-w-[794px]'>
+        '>
 
         <aside className='border bg-white bg-opacity-10 rounded-md 
-        md:w-[35%] w-[70%] px-4 py-10 
+        w-[30%] px-4 py-10 
         gap-y-6
         flex flex-col justify-between h-full'>
           <div className='flex flex-col'>
@@ -53,7 +53,7 @@ export default function Home() {
 
         </aside>
 
-        <main className='border bg-white bg-opacity-10 rounded-md md:w-[65%] w-[70%] px-4 py-10 
+        <main className='border bg-white bg-opacity-10 rounded-md w-[65%] px-4 py-10 
         gap-y-4
         flex flex-col justify-between h-full'>
             
@@ -128,7 +128,7 @@ export default function Home() {
         </main>
       </div>
 
-      <PDFPrompt/>
+      {/* <PDFPrompt/> */}
     
     </div>
 
