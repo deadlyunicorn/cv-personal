@@ -13,8 +13,7 @@ const Links = () => (
         id="github"
         src="github_filled.svg"
         alt="github icon"
-        description="Github: /deadlyunicorn"
-      />
+      >Github: /deadlyunicorn</Item>
 
 
         
@@ -23,8 +22,7 @@ const Links = () => (
         id="linkedin"
         src="linkedin.svg"
         alt="linkedin icon"
-        description="Linkedin: /in/deadlyunicorn"
-      />
+      >Linkedin: /in/deadlyunicorn</Item>
 
 
       <Item 
@@ -32,28 +30,29 @@ const Links = () => (
         id="globe"
         src="web.svg"
         alt="globe icon"
-        description="www.deadlyunicorn.dev"/>
+      >www.deadlyunicorn.dev</Item>
 
       <Item
-        href="mailto:retroalex1008@gmail.com"
+        href="mailto:petrache.dev@gmail.com"
         id="mail"
         src="mail.svg"
-        alt="mail icon"
-        description="retroalex1008@gmail.com"/>
+        alt="mail icon">
+        petrache.dev@gmail.com
+      </Item>
 
       <Item
         href="tel:+306980234544"
         id="tel"
         src="tel.svg"
         alt="telephone icon"
-        description="+30 698 023 4544"/>
+      >+30 698 023 4544</Item>
 
       <Item 
         href="https://goo.gl/maps/Bj8fJCYPCLUjDr1H6"
         id="address"
         src="house.svg"
         alt="house icon"
-        description="Athens 104 44, Greece"/>
+      >Athens 104 44, Greece</Item>
 
     </tbody>
   </table>
@@ -61,7 +60,7 @@ const Links = () => (
 )
 
 
-const Item = ({href,src,alt,id,description}:ItemKeys) => (
+const Item = ({href,src,alt,id,children}:ItemKeys) => (
   
 
     <tr>
@@ -73,7 +72,7 @@ const Item = ({href,src,alt,id,description}:ItemKeys) => (
           rel="noopener noreferrer"
           href={href}>
         
-          <div className="sm:flex hidden shrink-0 w-5 h-5">
+          <div className="sm:flex hidden shrink-0 w-5 h-5 mr-[1px] ">
             <Image 
               id={id} src={src} width={20} height={20} alt={alt}/>
           </div>
@@ -84,11 +83,11 @@ const Item = ({href,src,alt,id,description}:ItemKeys) => (
       
       <td>
         <Link
-          className="text-blue-800 flex text-xs sm:text-base"
+          className="text-blue-800 flex text-xs sm:text-base items-center"
           target="_blank"
           rel="noopener noreferrer"
           href={href}>
-          {description}
+          {children}
         </Link>
       </td>
 
@@ -103,11 +102,11 @@ export const LinksCL = () =>( //Links for cover letter
     <tbody>
 
       <Item
-        href="mailto:retroalex1008@gmail.com"
+        href="mailto:petrache.dev@gmail.com"
         id="mail"
         src="mail.svg"
         alt="mail icon"
-        description="retroalex1008@gmail.com"/>
+        description="petrache.dev@gmail.com"/>
 
       <Item
         href="tel:+306980234544"
