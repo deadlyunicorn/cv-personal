@@ -9,30 +9,34 @@ const Links = () => (
     <tbody>
 
       <Item
+        ariaLabel="Github profile"
         href="https://github.com/deadlyunicorn/"
         id="github"
         src="github_filled.svg"
         alt="github icon"
-      >Github: /deadlyunicorn</Item>
+      >/deadlyunicorn</Item>
 
 
         
       <Item
+        ariaLabel="LinkedIn profile"
         href="https://www.linkedin.com/in/deadlyunicorn"
         id="linkedin"
         src="linkedin.svg"
         alt="linkedin icon"
-      >Linkedin: /in/deadlyunicorn</Item>
+      >/in/deadlyunicorn</Item>
 
 
       <Item 
+        ariaLabel="Personal website"
         href="https://www.deadlyunicorn.dev/"
         id="globe"
         src="web.svg"
         alt="globe icon"
-      >www.deadlyunicorn.dev</Item>
+      >deadlyunicorn.dev</Item>
 
       <Item
+        ariaLabel="bussiness mail"
         href="mailto:petrache.dev@gmail.com"
         id="mail"
         src="mail.svg"
@@ -41,6 +45,7 @@ const Links = () => (
       </Item>
 
       <Item
+        ariaLabel="phone number"
         href="tel:+306980234544"
         id="tel"
         src="tel.svg"
@@ -60,10 +65,10 @@ const Links = () => (
 )
 
 
-const Item = ({href,src,alt,id,children}:ItemKeys) => (
+const Item = ({href,src,alt,id,children,ariaLabel}:ItemKeys) => (
   
 
-    <tr>
+    <tr className="flex items-center w-full gap-x-[2px]">
    
 
       <td>
@@ -72,7 +77,7 @@ const Item = ({href,src,alt,id,children}:ItemKeys) => (
           rel="noopener noreferrer"
           href={href}>
         
-          <div className="sm:flex hidden shrink-0 w-5 h-5 mr-[1px] ">
+          <div className="flex shrink-0 w-5 h-5 translate-y-[2px]">
             <Image 
               id={id} src={src} width={20} height={20} alt={alt}/>
           </div>
@@ -83,7 +88,8 @@ const Item = ({href,src,alt,id,children}:ItemKeys) => (
       
       <td>
         <Link
-          className="text-blue-800 flex text-xs sm:text-base items-center"
+          aria-label={ariaLabel}
+          className="text-blue-800 flex text-base items-center"
           target="_blank"
           rel="noopener noreferrer"
           href={href}>
