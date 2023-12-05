@@ -10,18 +10,17 @@ const LanguagesTable=()=>(
      <StudiesItem
         description={
           <p>
-            I am currently studying at the
-            <br/>&quot;Vocational School of Peristeri, Greece&quot; 
-            <br/>in the specialty of 
-            <br/>&quot;Technician of Applications in Informatics&quot;.
+            Studies for a <b>VET degree ( Level 5 )</b> with a focus 
+            on <b>Software Development</b>
           </p>
         }
-        years="2022-24"/>
+        years="2022 - 24"/>
 
       <StudiesItem 
         description={
           <p>
-            Graduated from High School.
+            Graduated from a General Lyceum 
+            <br/><sup>with an average of <b>19.5/20</b></sup>
           </p>
         }
         years="2021"/>
@@ -38,7 +37,7 @@ export default LanguagesTable;
 const StudiesItem = ({years,description}:{years:string,description:ReactNode}) => (
 
   <tr>
-    <td>{years}</td>  
+    <td className="whitespace-nowrap">{years}</td>  
     <td>-</td>
     <td>{description}</td>
   </tr>

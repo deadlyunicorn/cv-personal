@@ -28,7 +28,7 @@ export default function Home() {
             <h1 className='font-semibold text-2xl'>Alexander Petrache</h1>
             
             <div className='flex gap-x-2'>
-              <h2 className='text-lg'>Web Developer</h2>
+              <h2 className='text-lg'>Full-Stack Developer</h2>
               <Image 
                 className='self-center'
                 alt='my internet avatar'
@@ -64,27 +64,27 @@ export default function Home() {
               </h1>
               
               <p>
-                Greetings! I am Alex and I live in Greece! 
-                <br/>I love creating and I do so 
-                <br/><em>by developing webapps!</em>
-                <br/>I have mostly worked with 
-                <br/><strong>NextJS</strong> <br/>( <em>a React Framework</em> )<br/> and <strong>MongoDB.</strong>
+                Hello World! I am Alexander. 
+                <br/>A Full-Stack Software Developer.
+                <br/>This is due to the fact that 
+                  <b>I love creating</b>. 
+                <br/>I do so <em>by developing applications!</em><br/>
+                <sup>Be sure to check my Github!</sup>
+                
+                <br/>I have experience working with
+                <br/><strong>Next.JS*, Flutter </strong> 
+                  and <strong>MongoDB.</strong> <br/>
+                <sup>*Next.JS is a Full-Stack JavaScript Framework, based on React.js</sup>
+                
+                <br/>I make use of 
+                <br/><strong>TypeScript, TailwindCSS, Git.</strong>
                 <br/>
-                <br/>I also have experience working with
-                <br/><strong>NodeJS, TypeScript and TailwindCSS.</strong>
+                <br/>I am into using bleeding-edge technologies.
+                <br/>Another interest of mine is Cyber Security.
                 <br/>
-                <br/>I keep up with the new technologies.
-                <br/>I currently <em>want to experiment</em> with
-                <br/><strong>Flutter</strong> and <strong> Rust </strong>
-                <br/>
-                <br/>Some other fields I find intriguing are:
-                <br/>Mixed/Virtual Reality
-                <br/>Prompt Engineering 
-                <br/>Cyber Security
-                <br/>
-                <br/>I enjoy <b>dealing up with new challenges</b>.
-                <br/>I have consistently stood out due to my performance.
-                <br/>Disorganization deters me.
+                <br/><b>Solving puzzles</b> fascinates me.
+                <br/>When it comes to performance, I often stand out.
+                <br/>Always looking multiple moves ahead.
                 <br/>I am a <b>fast learner</b> and <b>adaptable</b>.
                 <br/>
                 <br/>I can communicate with ease in <b>English</b> and <b>Greek</b>.

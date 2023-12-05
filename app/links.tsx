@@ -20,11 +20,11 @@ const Links = () => (
         
       <Item
         ariaLabel="LinkedIn profile"
-        href="https://www.linkedin.com/in/deadlyunicorn"
+        href="https://www.linkedin.com/in/alexander-petrache/"
         id="linkedin"
         src="linkedin.svg"
         alt="linkedin icon"
-      >/in/deadlyunicorn</Item>
+      >/in/alexander-petrache</Item>
 
 
       <Item 
@@ -60,6 +60,14 @@ const Links = () => (
       >Athens 104 44, Greece</Item>
 
     </tbody>
+    <tfoot>
+      <tr>
+        <td className="text-sm text-center">
+            Due to nationality ( Romanian ), 
+            <br/><u>not obligated for military duties.</u>
+        </td>
+      </tr>
+    </tfoot>
   </table>
 
 )
