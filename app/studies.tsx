@@ -11,10 +11,10 @@ const LanguagesTable=()=>(
         description={
           <p>
             Studies for a <b>VET degree ( Level 5 )</b> with a focus 
-            on <b>Software Development</b>
+            on <b>Software&nbsp;Development</b>
           </p>
         }
-        years="2022 - 24"/>
+        years="2022 - 24*"/>
 
       <StudiesItem 
         description={

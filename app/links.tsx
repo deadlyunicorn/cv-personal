@@ -8,15 +8,14 @@ const Links = () => (
     
     <tbody>
 
-      <Item
-        ariaLabel="Github profile"
-        href="https://github.com/deadlyunicorn/"
-        id="github"
-        src="github_filled.svg"
-        alt="github icon"
-      >/deadlyunicorn</Item>
-
-
+    <Item
+        ariaLabel="bussiness mail"
+        href="mailto:petrache.dev@gmail.com"
+        id="mail"
+        src="mail.svg"
+        alt="mail icon">
+        petrache.dev@gmail.com
+      </Item>
         
       <Item
         ariaLabel="LinkedIn profile"
@@ -26,6 +25,14 @@ const Links = () => (
         alt="linkedin icon"
       >/in/alexander-petrache</Item>
 
+      <Item
+        ariaLabel="Github profile"
+        href="https://github.com/deadlyunicorn/"
+        id="github"
+        src="github_filled.svg"
+        alt="github icon"
+      >/deadlyunicorn</Item>
+
 
       <Item 
         ariaLabel="Personal website"
@@ -34,15 +41,6 @@ const Links = () => (
         src="web.svg"
         alt="globe icon"
       >deadlyunicorn.dev</Item>
-
-      <Item
-        ariaLabel="bussiness mail"
-        href="mailto:petrache.dev@gmail.com"
-        id="mail"
-        src="mail.svg"
-        alt="mail icon">
-        petrache.dev@gmail.com
-      </Item>
 
       <Item
         ariaLabel="phone number"
@@ -63,7 +61,7 @@ const Links = () => (
     <tfoot>
       <tr>
         <td className="text-sm text-center">
-            Due to nationality ( Romanian ), 
+            Due to nationality ( Romanian )
             <br/><u>not obligated for military duties.</u>
         </td>
       </tr>
