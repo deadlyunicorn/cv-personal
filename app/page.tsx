@@ -66,29 +66,29 @@ export default function Home() {
               <p>
                 Hello World! I am Alexander. 
                 <br/>A Full-Stack Software Developer.
-                <br/>This is due to the fact that 
-                  <b>I love creating</b>. 
+                <br/>I owe this to the fact that
+                  <b> I love creating</b>. 
                 <br/>I do so <em>by developing applications!</em><br/>
                 <sup>Be sure to check my Github!</sup>
                 
-                <br/>I have experience working with
+                <br/>I have significant experience with
                 <br/><strong>Next.JS*, Flutter </strong> 
                   and <strong>MongoDB.</strong> <br/>
-                <sup>*Next.JS is a Full-Stack JavaScript Framework, based on React.js</sup>
+                <sup>*Next.JS is a Full-Stack JavaScript Framework, based on <b>React.js</b></sup>
                 
                 <br/>I make use of 
-                <br/><strong>TypeScript, TailwindCSS, Git.</strong>
+                <br/><strong>TypeScript, TailwindCSS and Git.</strong>
                 <br/>
-                <br/>I am into using bleeding-edge technologies.
-                <br/>Another interest of mine is Cyber Security.
+                <br/>I am into using <b>bleeding-edge technologies</b>.
+                <br/>Another interest of mine is <b>Cyber Security</b>.
                 <br/>
                 <br/><b>Solving puzzles</b> fascinates me.
                 <br/>When it comes to performance, I often stand out.
                 <br/>Always looking multiple moves ahead.
                 <br/>I am a <b>fast learner</b> and <b>adaptable</b>.
                 <br/>
-                <br/>I can communicate with ease in <b>English</b> and <b>Greek</b>.
-                <br/>I can also have basic conversations in <b>Romanian</b>.
+                <br/>I can communicate in <b>English</b> and <b>Greek</b> with ease.
+                <br/>I am also capable of basic conversations in <b>Romanian</b>.
               </p>
 
             </div>
@@ -100,6 +100,8 @@ export default function Home() {
                 <StudiesTable/>
         
               </div>
+              <p className='text-sm'>*Graduating in June 2024. Looking for an internship or regular job position.</p>
+
 
               
             </div>
